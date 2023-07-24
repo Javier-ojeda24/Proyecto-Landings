@@ -1,5 +1,5 @@
 :root {
-  --main-c: #fdd72d;
+  --main-c: rgb(194, 184, 184);
   --border-r: 0.2rem;
 }
 html * {
