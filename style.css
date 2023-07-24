@@ -1,0 +1,107 @@
+:root {
+  --main-c: #fdd72d;
+  --border-r: 0.2rem;
+}
+html * {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-size: 1.1rem;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.wrap-cta {
+  padding: 1, 5rem 0;
+}
+.cta-a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.1rem;
+  background-color: var(--main-c);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-r);
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2.2rem;
+}
+.header-landing {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 0.2rem;
+}
+.logo-header {
+  max-width: 75px;
+  height: 100%;
+  width: 100%;
+}
+.hero-section {
+  height: 90vh;
+  background: url(img/fondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(106, 141, 163, 0.7);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+}
+.wrap-hero-section {
+  max-width: 600px;
+  color: #fff;
+  padding: 15%;
+}
+.section {
+  margin: 5rem 0;
+}
+
+.section h2 {
+  padding: 2rem 0;
+}
+.wrap-logos-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo-brand {
+  width: 400px;
+  padding: 1rem 2rem;
+  filter: grayscale(1);
+}
+
+.logo-brand:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+}
+.wrap-title-section {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.wrap-servicios-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.item-servicios-section {
+  padding: 1rem;
+}
+
+.item-servicios-section img {
+  width: 300px;
+  height: 225px;
+}
