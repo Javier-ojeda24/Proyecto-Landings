@@ -426,7 +426,8 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   .container {
-    flex-direction: column; /* Cambiamos la dirección del contenedor para apilar los elementos verticalmente */
+    display: grid;
+    grid-template-columns: 1fr; /* Cambiamos la dirección del contenedor para apilar los elementos verticalmente */
   }
 
   .text-half p {
