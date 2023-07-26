@@ -30,6 +30,7 @@ li {
   background-color: var(--main-c);
   padding: 0.5rem 1rem;
   border-radius: var(--border-r);
+  border-radius: 30px;
 }
 h1 {
   font-size: 2.8rem;
@@ -140,7 +141,7 @@ h3 {
 }
 .parrafo {
   font-size: 15px;
-  color: black;
+  color: white;
   align-self: center;
   font-weight: bold;
 }
@@ -178,11 +179,7 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
 }
-.social-logo {
-  max-width: 75px;
-  width: 100%;
-  padding: 1rem;
-}
+
 .wrap-menu-footer-section ul li {
   font-size: 1.1rem;
   padding: 1.5rem;
@@ -434,47 +431,28 @@ h2 {
     font-size: 16px; /* Reducimos aún más el tamaño del texto en pantallas móviles */
   }
 }
-.footer-section {
-  background-color: #f2f2f2;
-  padding: 1rem 0;
-}
-
 .wrap-footer-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.wrap-social-logos ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-}
-
-.social-logo {
-  max-width: 50px;
-  width: 100%;
-  padding: 0.5rem;
-}
-
-.menu-footer-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
-}
-.footer-creeds {
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .wrap-footer-section {
-    flex-direction: column;
-  }
-
-  .social-logo {
-    max-width: 40px;
-  }
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .social-logo {
-  border-radius: 50%; /* Agregamos el borde redondeado */
+  align-items: center;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+.p-footer {
+  color: #d63031;
+  font-size: 15px;
+  font-weight: 900;
+}
+.input{
+  color: white;
+}
+.Enviar{
+  border-radius: 30px;
+}
+.text-half p{
+  color: white;
 }
