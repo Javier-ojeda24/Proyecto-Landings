@@ -456,3 +456,10 @@ h2 {
 .text-half p{
   color: white;
 }
+.vender{
+text-transform: uppercase;
+font-weight: bold;
+}
+.envios{
+  background-color: black;
+}
